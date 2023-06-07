@@ -1,0 +1,30 @@
+.header-container{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #7236B5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* flex-wrap:wrap; */
+    padding: 0% 1%;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+}
+
+h1{
+    color: white;
+}
+.links{
+    display: flex;
+    margin-left: auto;
+    padding: 1% 2%;
+   
+}
+a{
+    text-decoration: none;
+}
+.links > a{
+    color: white;
+    margin: 0% 5%;
+}
